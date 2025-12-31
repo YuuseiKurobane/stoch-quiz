@@ -6,7 +6,8 @@ I don't like quizzes that require 83% accuracy and just cut-off a rank range fro
 
 Issue 1: If you happen to know a word outside your tested band, you don't get rewarded from it.  
 Issue 2: There are trivial readings of rare compounds mixed in even in higher rarities.
-My quiz attempts to solve the problem.
+
+My quiz attempts to solve both of these problems, by increasing the scope of the quiz, but allowing more mistakes.
 
 ## Take the test!
 If you pass a level, you are certified to have a high chance of knowing at least that many kanji readings.
