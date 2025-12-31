@@ -103,9 +103,26 @@ Level 15: 200 Points (200/210=95.2%)
 k!quiz stochs8(2.021%)+stochs9(3.502%)+stochs10(4.808%)+stochs11(9.545%)+stochs12(11.413%)+stochs13(16.367%)+stochs14(21.208%)+stochs15(28.127%)+stochl14(1.299%)+stochl15(1.710%) 200 mmq=10 hardcore nd dauq=1
 ```
 
+Add Kotoba Discord Bot! https://kotobaweb.com/bot/quiz
 
 ## Datasets.
-Jiten: https://jiten.moe/other (Global, Yomitan)
+Jiten: https://jiten.moe/other (Global, Yomitan)  
 JmdictFurigana: https://github.com/Doublevil/JmdictFurigana
 
 ## Methodology.
+Based on a model I made: The immersion-based learner.  
+Assumptions:
+- A learner sees words from Jiten frequency list weighted at 1/rawfreq (Zipf distribution, this is the best information that we can get)
+- Kanji readings are assumed to be learnt if the learner sees a specific kanji reading 3 times. (duplicates only count as one)
+- A learner can read kanji if and only if they can read all of its components (NOTE: THIS IS A STRONG, CRUDE/BAD ASSUMPTION)
+- The Kanji Burden quantity is defined as the expected time until the learner is able to read the word.
+- More precisely, the Kanji Burden is the Stopping time of some Stochastic process. Therefore, the quiz is named stoch (stochastic).
+
+Approximations/Simplifications:
+- weightKanjiReading_Final.csv is roughly how often a kanji gets introduced
+(If you want to be accurate, you have to not separate concepts of words and readings)
+- Weibull is used to find a correlation between Kanji Burden and weight kanji reading. See 3.x.10_weibull_calibrate_from_immersion.py.
+
+## Lisence
+MIT License Copyright (c) 2025 Yuusei Kurobane
+IDK LMAO JUST DO WHATEVER U WANT WITH THIS PROGRAM
