@@ -10,7 +10,7 @@ Issue 2: There are trivial readings of rare compounds mixed in even in higher ra
 My quiz attempts to solve both of these problems, by increasing the scope of the quiz, but allowing more mistakes.
 
 ## Take the test!
-If you pass a level, you are certified to have a high chance of knowing at least that many kanji readings.
+If you pass a level, you are certified to have a high (90-99%) chance of knowing at least that many kanji readings.
 Estimated kanji reading ability by level:  
 Level 1: 89 readings (78 kanji)  
 Level 2: 296 readings (249 kanji)  
