@@ -1,8 +1,9 @@
 # stoch-quiz
-Quiz to test how many Japanese readings/kanji you know! With high accuracy.
+Quiz in Kotoba Discord bot to test how many Japanese readings/kanji you know!
 
 ## Motivation.
 I don't like quizzes that require 83% accuracy and just cut-off a rank range from frequency lists.
+
 Issue 1: If you happen to know a word outside your tested band, you don't get rewarded from it.
 Issue 2: There are trivial readings of rare compounds mixed in even in higher rarities.
 My quiz attempts to solve the problem.
