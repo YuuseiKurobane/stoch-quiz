@@ -123,6 +123,14 @@ Approximations/Simplifications:
 (If you want to be accurate, you have to not separate concepts of words and readings)
 - Weibull is used to find a correlation between Kanji Burden and weight kanji reading. See 3.x.10_weibull_calibrate_from_immersion.py.
 
+## Questions.
+Add `yuusei` on Discord and DM me that you want to ask me about this quiz. I will accept friend request.
+I will not accept friend request if you don't DM me anything.
+
+- Design choice questions should go to Yuusei. I'm decent at Math but I might not know everything.
+- Missing files complaint or ask for help should go to Yuusei.
+- Workflow related questions, heavy tech support, heavy code support should just go to some LLM such as ChatGPT. There's a limit to what I can answer. I'll try to help though, feel free to retrace my steps and improve upon this.
+
 ## Lisence
 MIT License Copyright (c) 2025 Yuusei Kurobane
 IDK LMAO JUST DO WHATEVER U WANT WITH THIS PROGRAM
