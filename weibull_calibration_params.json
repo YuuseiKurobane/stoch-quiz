@@ -1,0 +1,29 @@
+{
+  "alpha": 1.9899999999999969,
+  "beta": 0.8863107947172044,
+  "rq_0.5": 0.9384837469272911,
+  "rq_0.9": 1.7156626439672191,
+  "mae_mastery": 0.020924170906201186,
+  "rmse_mastery": 0.02681292614433797,
+  "loss_type": "mse",
+  "loss_value": 0.0007189330084217226,
+  "k_sightings": 3,
+  "max_components_calib": 4,
+  "ratio_grid": [
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    2.0,
+    3.0
+  ],
+  "s_slip": 0.05,
+  "g_guess": 0.05,
+  "allow_free_beta": false,
+  "usable_unique_sets": 128720,
+  "unique_sets_total": 128720,
+  "word_weight_mode": "uniform_words",
+  "time_seconds": 396.013352394104
+}
